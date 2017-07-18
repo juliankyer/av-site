@@ -1,4 +1,4 @@
-console.log('This website was built by Julian Kyer. Inquiries at julian.kyer@gmail.com.');
+console.log('This website was built by Julian Kyer. Questions? Comments? Email me at julian.kyer@gmail.com.');
 
 $(document).ready(function() {
   $('.nav-item').on('click', function(e) {
