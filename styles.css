@@ -73,11 +73,14 @@ h1 {
 #right-nav {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: 40px;
 }
 
 #link-wrapper {
-  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
 }
 
 #title {
@@ -103,6 +106,10 @@ h1 {
 
 .nav-item:visited {
   color: black;
+}
+
+.twitter-link img {
+  height: 60px;
 }
 
 /*ABOUT*/
