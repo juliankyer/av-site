@@ -128,17 +128,17 @@ h1 {
 }
 
 #quote p {
-  color: #ffffff;
+  color: #fdfdfd;
   margin: 8px 5px 5px 20px;
   font-size: 16px;
   line-height: 1.3em;
 }
 
 h3 {
-  border-top: 2px solid white;
+  border-top: 2px solid #fdfdfd;
   margin-top: 20px;
   padding: 20px;
-  color: white;
+  color: #fdfdfd;
   font-size: 20px;
 }
 
@@ -154,13 +154,13 @@ h3 {
 
 #creed-about {
   height: 360px;
-  border: 2px solid white;
+  border: 2px solid #fdfdfd;
 }
 
 /*RIDERS*/
 
 #riders {
-  background: linear-gradient(rgba(27, 27, 27, 0.8), rgba(27, 27, 27, 0.5));
+  background: linear-gradient(rgba(27, 27, 27, 0.8), rgba(27, 27, 27, 0.6));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,7 +168,7 @@ h3 {
 }
 
 #riders h4 {
-  color: #ffffff;
+  color: #fdfdfd;
   font-size: 28px;
   margin: 70px 10px 15px;
   text-transform: uppercase;
@@ -192,13 +192,13 @@ h3 {
 }
 
 .rider-card h5 {
-  color: #ffffff;
+  color: #fdfdfd;
   margin-top: 10px;
   /*text-indent: 3px;*/
 }
 
 .rider-photo {
-  border: 2px solid #ffffff;
+  border: 2px solid #fdfdfd;
   width: 227px;
   height: 243px;
 }
@@ -206,7 +206,7 @@ h3 {
 /*STAFF*/
 
 #staff {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(27, 27, 27, 0.4));
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(27, 27, 27, 0.2));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,11 +229,15 @@ h3 {
   font-weight: 500;
 }
 
+#staff h5 {
+  color: #1b1b1b;
+}
+
 
 /*SPONSORS*/
 
 #sponsors {
-  color: #ffffff;
+  color: #fdfdfd;
   font-size: 28px;
   font-weight: 500;
   margin: 30px 10px 10px;
@@ -247,7 +251,7 @@ h3 {
   align-items: center;
   /*height: 100px;*/
   width: 100vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(27, 27, 27, 0.8));
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(27, 27, 27, 0.9));
 }
 
 #sponsor-wrapper {
@@ -258,7 +262,7 @@ h3 {
 .sponsor {
   font-size: 20px;
   border: 2px solid black;
-  background-color: #ffffff;
+  background-color: #fdfdfd;
   padding: 5px 10px;
   margin: 20px 10px;
 }
@@ -270,7 +274,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(27, 27, 27, 0.8);
+  background-color: rgba(27, 27, 27, 0.9);
   padding: 5px;
 }
 
