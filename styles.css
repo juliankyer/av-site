@@ -193,8 +193,10 @@ h3 {
   /*text-indent: 3px;*/
 }
 
-.rider-card img {
+.rider-photo {
   border: 2px solid #ffffff;
+  width: 227px;
+  height: 243px;
 }
 
 /*STAFF*/
@@ -257,13 +259,6 @@ h3 {
   margin: 20px 10px;
 }
 
-
-
-
-
-
-
-
 /*FOOTER*/
 
 footer {
@@ -279,4 +274,12 @@ footer a {
 
 #attributes {
   font-size: 10px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1075px) {
+  .about {
+    height: 100%;
+    padding: 15px 20px 10px;
+  }
 }
